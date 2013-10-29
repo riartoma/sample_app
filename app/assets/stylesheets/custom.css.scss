@@ -1,6 +1,11 @@
 @import "bootstrap";
+
+/* mixins, variables, etc. */
+
 $lightGray: #999;
-@grayLight: #999;
+$grayMediumLight: #eaeaea;
+$grayLight: #999;
+
 /* universal */
 
 html {
