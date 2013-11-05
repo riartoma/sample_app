@@ -86,7 +86,6 @@ describe "Authentication" do
           end
         end
       end
-
       describe "in the Users controller" do
 
         describe "visiting the edit page" do
@@ -134,5 +133,3 @@ describe "Authentication" do
       end
     end
   end
-end
-
