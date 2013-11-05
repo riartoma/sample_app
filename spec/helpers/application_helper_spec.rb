@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'rails/all'
+require 'will_paginate/array'
 include ApplicationHelper
 describe ApplicationHelper do
 
