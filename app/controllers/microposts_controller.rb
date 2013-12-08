@@ -24,7 +24,7 @@ class MicropostsController < ApplicationController
   private
 
     def micropost_params
-      params.require(:micropost).permit(:content)
+      params.require(:micropost).permit(:content, :title)
     end
     def correct_user
       @micropost = current_user.microposts.find_by(id: params[:id])
